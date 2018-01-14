@@ -1,5 +1,10 @@
 # Result
 
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
+[![Build Status](https://travis-ci.org/thecb4/Result.svg?branch=master)](https://travis-ci.org/thecb4/Result)
+[![codecov](https://codecov.io/gh/thecb4/Result/branch/master/graph/badge.svg)](https://codecov.io/gh/thecb4/Result)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 This is a Swift µframework providing `Result<Value, Error>`.
 This framework is started from [Result](https://github.com/thecb4/Result)
 
