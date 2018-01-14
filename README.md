@@ -1,7 +1,12 @@
 # Result
 
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
+[![Build Status](https://travis-ci.org/thecb4/Result.svg?branch=master)](https://travis-ci.org/thecb4/Result)
+[![codecov](https://codecov.io/gh/thecb4/Result/branch/master/graph/badge.svg)](https://codecov.io/gh/thecb4/Result)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 This is a Swift µframework providing `Result<Value, Error>`.
-This framework is started from [Result](https://github.com/antitypical/Result)
+This framework is started from [Result](https://github.com/thecb4/Result)
 
 `Result<Value, Error>` values are either successful (wrapping `Value`) or failed (wrapping `Error`). This is similar to Swift’s native `Optional` type: `success` is like `some`, and `failure` is like `none` except with an associated `Error` value. The addition of an associated `Error` allows errors to be passed along for logging or displaying to the user.
 
@@ -87,11 +92,6 @@ An in depth discussion of `map` and `flatMap` is beyond the scope of this docume
 3. Link your target against `Result.framework`.
 4. Application targets should ensure that the framework gets copied into their application bundle. (Framework targets should instead require the application linking them to include Result.)
 
-### Cocoapods
-
-```ruby
-pod 'Result', '~> 3.0.0'
-```
 
 ### Swift Package Manager
 
@@ -102,7 +102,7 @@ let package = Package(
 name: "MyProject",
 targets: [],
 dependencies: [
-.Package(url: "https://github.com/antitypical/Result.git",
+.Package(url: "https://github.com/thecb4/Result.git",
 majorVersion: 3)
 ]
 )
