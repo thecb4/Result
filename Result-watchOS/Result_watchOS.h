@@ -5,7 +5,7 @@
 //  Created by Cavelle Benjamin on 18-Feb-25 (08).
 //
 
-#import <UIKit/UIKit.h>
+#import <WatchKit/WatchKit.h>
 
 //! Project version number for Result_watchOS.
 FOUNDATION_EXPORT double Result_watchOSVersionNumber;
