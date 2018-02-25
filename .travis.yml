@@ -4,10 +4,37 @@ matrix:
     osx_image: xcode9.2
     language: objective-c
     env:
-      - JOB="macOS + Xcode"
+      - JOB="macOS + Xcode / macOS"
       - ACTION=build  PLATFORM=Mac     SCHEME='Result-Package' DESTINATION="platform=OS X"
+    script:
+      - swift package update
+      - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+
+  - os: osx
+    osx_image: xcode9.2
+    language: objective-c
+    env:
+      - JOB="macOS + Xcode / iOS"
       - ACTION=build  PLATFORM=iOS     SCHEME='Result-phoneOS' DESTINATION="platform=iOS Simulator,name=iPhone 8"
+    script:
+      - swift package update
+      - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+
+  - os: osx
+    osx_image: xcode9.2
+    language: objective-c
+    env:
+      - JOB="macOS + Xcode / watchOS"
       - ACTION=build  PLATFORM=watchOS SCHEME-'Result-watchOS' DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
+    script:
+      - swift package update
+      - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+
+  - os: osx
+    osx_image: xcode9.2
+    language: objective-c
+    env:
+      - JOB="macOS + Xcode / tvOS"
       - ACTION=build  PLATFORM=tvOS    SCHEME-'Result-tvOS'    DESTINATION="platform=tvOS Simulator,name=Apple TV"
     script:
       - swift package update
