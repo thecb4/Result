@@ -25,6 +25,19 @@
 		E9069BE3204378BB00760A84 /* Result_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9069BE2204378BB00760A84 /* Result_tvOSTests.swift */; };
 		E9069BE5204378BB00760A84 /* Result_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E9069BD7204378BB00760A84 /* Result_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9069BF5204378DE00760A84 /* Result_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E9069BF3204378DE00760A84 /* Result_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9069C302043822300760A84 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Result.swift */; };
+		E9069C312043822300760A84 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6481200BF94700221DF5 /* ResultProtocol.swift */; };
+		E9069C322043822300760A84 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6483200BF9E000221DF5 /* Result.ext.swift */; };
+		E9069C332043822300760A84 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6485200BFA3D00221DF5 /* AnyError.swift */; };
+		E9069C342043822300760A84 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6487200BFA6C00221DF5 /* NoError.swift */; };
+		E9069C352043822C00760A84 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ResultTests.swift */; };
+		E9069C362043822C00760A84 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A648C200BFD7400221DF5 /* AnyErrorTests.swift */; };
+		E9069C372043822C00760A84 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A648E200BFD9A00221DF5 /* NoErrorTests.swift */; };
+		E9069C382043823600760A84 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Result.swift */; };
+		E9069C392043823600760A84 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6481200BF94700221DF5 /* ResultProtocol.swift */; };
+		E9069C3A2043823600760A84 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6483200BF9E000221DF5 /* Result.ext.swift */; };
+		E9069C3B2043823600760A84 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6485200BFA3D00221DF5 /* AnyError.swift */; };
+		E9069C3C2043823600760A84 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6487200BFA6C00221DF5 /* NoError.swift */; };
 		E90DD10B2042E529003A4A04 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DD1022042E529003A4A04 /* Result.framework */; };
 		E90DD1102042E52A003A4A04 /* Result_phoneOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DD10F2042E52A003A4A04 /* Result_phoneOSTests.swift */; };
 		E90DD1122042E52A003A4A04 /* Result_phoneOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E90DD1042042E529003A4A04 /* Result_phoneOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -627,6 +640,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9069C382043823600760A84 /* Result.swift in Sources */,
+				E9069C392043823600760A84 /* ResultProtocol.swift in Sources */,
+				E9069C3A2043823600760A84 /* Result.ext.swift in Sources */,
+				E9069C3B2043823600760A84 /* AnyError.swift in Sources */,
+				E9069C3C2043823600760A84 /* NoError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +652,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9069C352043822C00760A84 /* ResultTests.swift in Sources */,
+				E9069C362043822C00760A84 /* AnyErrorTests.swift in Sources */,
+				E9069C372043822C00760A84 /* NoErrorTests.swift in Sources */,
 				E9069BE3204378BB00760A84 /* Result_tvOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -642,6 +663,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9069C302043822300760A84 /* Result.swift in Sources */,
+				E9069C312043822300760A84 /* ResultProtocol.swift in Sources */,
+				E9069C322043822300760A84 /* Result.ext.swift in Sources */,
+				E9069C332043822300760A84 /* AnyError.swift in Sources */,
+				E9069C342043822300760A84 /* NoError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,6 +885,7 @@
 		E9069BEA204378BB00760A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -917,6 +944,7 @@
 		E9069BEB204378BB00760A84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
