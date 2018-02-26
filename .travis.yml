@@ -9,7 +9,7 @@ matrix:
     before_install:
       - brew update
       - brew outdated carthage || brew upgrade carthage
-      - carthage update --platform macOS
+      # - carthage update --platform macOS
     script:
       - swift package update
       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
@@ -24,7 +24,7 @@ matrix:
     before_install:
       - brew update
       - brew outdated carthage || brew upgrade carthage
-      - carthage update --platform iOS
+      # - carthage update --platform iOS
     script:
       - swift package update
       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
@@ -39,7 +39,7 @@ matrix:
     before_install:
       - brew update
       - brew outdated carthage || brew upgrade carthage
-      - carthage update --platform watchOS
+      # - carthage update --platform watchOS
     script:
       - swift package update
       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
@@ -54,7 +54,7 @@ matrix:
     before_install:
       - brew update
       - brew outdated carthage || brew upgrade carthage
-      - carthage update --platform tvOS
+      # - carthage update --platform tvOS
     script:
       - swift package update
       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
