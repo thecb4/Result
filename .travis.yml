@@ -35,7 +35,7 @@ matrix:
     language: objective-c
     env:
       - JOB="Carthage / watchOS"
-      - ACTION=build  PLATFORM=watchOS     SCHEME='Result-watchOS' DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm'"
+      - ACTION=build  PLATFORM=watchOS     SCHEME='Result-watchOS' DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
     before_install:
       - brew update
       - brew outdated carthage || brew upgrade carthage
