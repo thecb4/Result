@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Result::Result"
+               BlueprintIdentifier = "E9069C982043977D00760A84"
                BuildableName = "Result.framework"
-               BlueprintName = "Result"
+               BlueprintName = "Result-macOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,13 +33,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Result::ResultTests"
-               BuildableName = "ResultTests.xctest"
-               BlueprintName = "ResultTests"
+               BlueprintIdentifier = "E9069CA02043977D00760A84"
+               BuildableName = "Result-macOSTests.xctest"
+               BlueprintName = "Result-macOSTests"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E9069C982043977D00760A84"
+            BuildableName = "Result.framework"
+            BlueprintName = "Result-macOS"
+            ReferencedContainer = "container:Result.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -57,9 +66,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Result::Result"
+            BlueprintIdentifier = "E9069C982043977D00760A84"
             BuildableName = "Result.framework"
-            BlueprintName = "Result"
+            BlueprintName = "Result-macOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,6 +81,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E9069C982043977D00760A84"
+            BuildableName = "Result.framework"
+            BlueprintName = "Result-macOS"
+            ReferencedContainer = "container:Result.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

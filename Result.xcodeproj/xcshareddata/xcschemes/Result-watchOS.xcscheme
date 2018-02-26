@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9069BF0204378DE00760A84"
+               BlueprintIdentifier = "E9069CBD20439B9E00760A84"
                BuildableName = "Result_watchOS.framework"
                BlueprintName = "Result-watchOS"
                ReferencedContainer = "container:Result.xcodeproj">
@@ -29,21 +29,11 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E90DD1252042E633003A4A04"
-               BuildableName = "Result-watchOSTests.xctest"
-               BlueprintName = "Result-watchOSTests"
-               ReferencedContainer = "container:Result.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069BF0204378DE00760A84"
+            BlueprintIdentifier = "E9069CBD20439B9E00760A84"
             BuildableName = "Result_watchOS.framework"
             BlueprintName = "Result-watchOS"
             ReferencedContainer = "container:Result.xcodeproj">
@@ -66,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069BF0204378DE00760A84"
+            BlueprintIdentifier = "E9069CBD20439B9E00760A84"
             BuildableName = "Result_watchOS.framework"
             BlueprintName = "Result-watchOS"
             ReferencedContainer = "container:Result.xcodeproj">
@@ -84,7 +74,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069BF0204378DE00760A84"
+            BlueprintIdentifier = "E9069CBD20439B9E00760A84"
             BuildableName = "Result_watchOS.framework"
             BlueprintName = "Result-watchOS"
             ReferencedContainer = "container:Result.xcodeproj">
