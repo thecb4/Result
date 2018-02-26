@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		E9069BDE204378BB00760A84 /* Result_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9069BD5204378BB00760A84 /* Result_tvOS.framework */; };
+		E9069BDE204378BB00760A84 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9069BD5204378BB00760A84 /* Result.framework */; };
 		E9069BE3204378BB00760A84 /* Result_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9069BE2204378BB00760A84 /* Result_tvOSTests.swift */; };
 		E9069C302043822300760A84 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Result.swift */; };
 		E9069C312043822300760A84 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6481200BF94700221DF5 /* ResultProtocol.swift */; };
@@ -90,13 +90,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9069BD5204378BB00760A84 /* Result_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9069BD5204378BB00760A84 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9069BD7204378BB00760A84 /* Result_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Result_tvOS.h; sourceTree = "<group>"; };
 		E9069BD8204378BB00760A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9069BDD204378BB00760A84 /* Result-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Result-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9069BE2204378BB00760A84 /* Result_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result_tvOSTests.swift; sourceTree = "<group>"; };
 		E9069BE4204378BB00760A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9069BF1204378DE00760A84 /* Result_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9069BF1204378DE00760A84 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9069BF3204378DE00760A84 /* Result_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Result_watchOS.h; sourceTree = "<group>"; };
 		E9069BF4204378DE00760A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E90DD0E82042E3E0003A4A04 /* Result_phoneOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Result_phoneOS.h; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9069BDE204378BB00760A84 /* Result_tvOS.framework in Frameworks */,
+				E9069BDE204378BB00760A84 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,9 +314,9 @@
 				"Result::Result::Product" /* Result.framework */,
 				E90DD1022042E529003A4A04 /* Result.framework */,
 				E90DD10A2042E529003A4A04 /* Result-phoneOSTests.xctest */,
-				E9069BD5204378BB00760A84 /* Result_tvOS.framework */,
+				E9069BD5204378BB00760A84 /* Result.framework */,
 				E9069BDD204378BB00760A84 /* Result-tvOSTests.xctest */,
-				E9069BF1204378DE00760A84 /* Result_watchOS.framework */,
+				E9069BF1204378DE00760A84 /* Result.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -383,7 +383,7 @@
 			);
 			name = "Result-tvOS";
 			productName = "Result-tvOS";
-			productReference = E9069BD5204378BB00760A84 /* Result_tvOS.framework */;
+			productReference = E9069BD5204378BB00760A84 /* Result.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E9069BDC204378BB00760A84 /* Result-tvOSTests */ = {
@@ -418,7 +418,7 @@
 			);
 			name = "Result-watchOS";
 			productName = "Result-watchOS";
-			productReference = E9069BF1204378DE00760A84 /* Result_watchOS.framework */;
+			productReference = E9069BF1204378DE00760A84 /* Result.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E90DD1012042E529003A4A04 /* Result-phoneOS */ = {
@@ -773,7 +773,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.Result-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -837,7 +838,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.Result-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1020,7 +1022,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.Result-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1085,7 +1088,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.Result-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
