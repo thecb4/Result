@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9069CBD20439B9E00760A84"
-               BuildableName = "Result.framework"
-               BlueprintName = "Result-watchOS"
+               BlueprintIdentifier = "Result::ResultPackageTests::ProductTarget"
+               BuildableName = "ResultPackageTests"
+               BlueprintName = "ResultPackageTests"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069CBD20439B9E00760A84"
-            BuildableName = "Result.framework"
-            BlueprintName = "Result-watchOS"
+            BlueprintIdentifier = "Result::ResultPackageTests::ProductTarget"
+            BuildableName = "ResultPackageTests"
+            BlueprintName = "ResultPackageTests"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069CBD20439B9E00760A84"
-            BuildableName = "Result.framework"
-            BlueprintName = "Result-watchOS"
+            BlueprintIdentifier = "Result::ResultPackageTests::ProductTarget"
+            BuildableName = "ResultPackageTests"
+            BlueprintName = "ResultPackageTests"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
