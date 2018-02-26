@@ -23,8 +23,6 @@
 /* Begin PBXBuildFile section */
 		E9069BDE204378BB00760A84 /* Result_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9069BD5204378BB00760A84 /* Result_tvOS.framework */; };
 		E9069BE3204378BB00760A84 /* Result_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9069BE2204378BB00760A84 /* Result_tvOSTests.swift */; };
-		E9069BE5204378BB00760A84 /* Result_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E9069BD7204378BB00760A84 /* Result_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9069BF5204378DE00760A84 /* Result_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E9069BF3204378DE00760A84 /* Result_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9069C302043822300760A84 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Result.swift */; };
 		E9069C312043822300760A84 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6481200BF94700221DF5 /* ResultProtocol.swift */; };
 		E9069C322043822300760A84 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6483200BF9E000221DF5 /* Result.ext.swift */; };
@@ -40,7 +38,6 @@
 		E9069C3C2043823600760A84 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6487200BFA6C00221DF5 /* NoError.swift */; };
 		E90DD10B2042E529003A4A04 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DD1022042E529003A4A04 /* Result.framework */; };
 		E90DD1102042E52A003A4A04 /* Result_phoneOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DD10F2042E52A003A4A04 /* Result_phoneOSTests.swift */; };
-		E90DD1122042E52A003A4A04 /* Result_phoneOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E90DD1042042E529003A4A04 /* Result_phoneOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E90DD1352042E64F003A4A04 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Result.swift */; };
 		E90DD1362042E64F003A4A04 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6481200BF94700221DF5 /* ResultProtocol.swift */; };
 		E90DD1372042E64F003A4A04 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A6483200BF9E000221DF5 /* Result.ext.swift */; };
@@ -371,33 +368,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		E9069BD2204378BB00760A84 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9069BE5204378BB00760A84 /* Result_tvOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9069BEE204378DE00760A84 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9069BF5204378DE00760A84 /* Result_watchOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E90DD0FF2042E529003A4A04 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E90DD1122042E52A003A4A04 /* Result_phoneOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		E9069BD4204378BB00760A84 /* Result-tvOS */ = {
 			isa = PBXNativeTarget;
@@ -405,7 +375,6 @@
 			buildPhases = (
 				E9069BD0204378BB00760A84 /* Sources */,
 				E9069BD1204378BB00760A84 /* Frameworks */,
-				E9069BD2204378BB00760A84 /* Headers */,
 				E9069BD3204378BB00760A84 /* Resources */,
 			);
 			buildRules = (
@@ -441,7 +410,6 @@
 			buildPhases = (
 				E9069BEC204378DE00760A84 /* Sources */,
 				E9069BED204378DE00760A84 /* Frameworks */,
-				E9069BEE204378DE00760A84 /* Headers */,
 				E9069BEF204378DE00760A84 /* Resources */,
 			);
 			buildRules = (
@@ -459,7 +427,6 @@
 			buildPhases = (
 				E90DD0FD2042E529003A4A04 /* Sources */,
 				E90DD0FE2042E529003A4A04 /* Frameworks */,
-				E90DD0FF2042E529003A4A04 /* Headers */,
 				E90DD1002042E529003A4A04 /* Resources */,
 			);
 			buildRules = (
