@@ -412,7 +412,6 @@
 				E9069BD0204378BB00760A84 /* Sources */,
 				E9069BD1204378BB00760A84 /* Frameworks */,
 				E9069BD3204378BB00760A84 /* Resources */,
-				E9069C932043961F00760A84 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -661,24 +660,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		E9069C932043961F00760A84 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/tvOS/Result.framework",
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9069BD0204378BB00760A84 /* Sources */ = {
