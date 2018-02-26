@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E9069BF0204378DE00760A84"
-               BuildableName = "Result_watchOS.framework"
+               BuildableName = "Result.framework"
                BlueprintName = "Result-watchOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9069BF0204378DE00760A84"
-            BuildableName = "Result_watchOS.framework"
+            BuildableName = "Result.framework"
             BlueprintName = "Result-watchOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9069BF0204378DE00760A84"
-            BuildableName = "Result_watchOS.framework"
+            BuildableName = "Result.framework"
             BlueprintName = "Result-watchOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9069BF0204378DE00760A84"
-            BuildableName = "Result_watchOS.framework"
+            BuildableName = "Result.framework"
             BlueprintName = "Result-watchOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
