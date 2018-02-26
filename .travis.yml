@@ -4,37 +4,69 @@ matrix:
     osx_image: xcode9.2
     language: objective-c
     env:
-      - JOB="macOS + Xcode / macOS"
-      - ACTION=build  PLATFORM=Mac     SCHEME='Result-Package' DESTINATION="platform=OS X"
+      - JOB="Carthage / macOS"
+      - ACTION=build  PLATFORM=Mac     SCHEME='Result-macOS' DESTINATION="platform=OS X"
+    before_install:
+      - brew update
+      - brew outdated carthage || brew upgrade carthage
+      - carthage update --platform macOS
     script:
       - swift package update
       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+      - carthage build --no-skip-current --platform macOS
 
   - os: osx
     osx_image: xcode9.2
     language: objective-c
     env:
-      - JOB="macOS + Xcode / iOS"
+      - JOB="Carthage / iOS"
       - ACTION=build  PLATFORM=iOS     SCHEME='Result-phoneOS' DESTINATION="platform=iOS Simulator,name=iPhone 8"
+    before_install:
+      - brew update
+      - brew outdated carthage || brew upgrade carthage
+      - carthage update --platform iOS
     script:
       - swift package update
       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+      - carthage build --no-skip-current --platform iOS
 
   - os: osx
     osx_image: xcode9.2
     language: objective-c
     env:
-      - JOB="macOS + Xcode / tvOS"
+      - JOB="Carthage / watchOS"
+      - ACTION=build  PLATFORM=watchOS     SCHEME='Result-phoneOS' DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm'"
+    before_install:
+      - brew update
+      - brew outdated carthage || brew upgrade carthage
+      - carthage update --platform watchOS
+    script:
+      - swift package update
+      - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+      - carthage build --no-skip-current --platform watchOS
+
+  - os: osx
+    osx_image: xcode9.2
+    language: objective-c
+    env:
+      - JOB="Carthage / tvOS"
       - ACTION=build  PLATFORM=tvOS    SCHEME='Result-tvOS'    DESTINATION="platform=tvOS Simulator,name=Apple TV"
+    before_install:
+      - brew update
+      - brew outdated carthage || brew upgrade carthage
+      - carthage update --platform tvOS
     script:
       - swift package update
       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+      - carthage build --no-skip-current --platform tvOS
 
   - os: osx
     osx_image: xcode9.2
     language: objective-c
     env:
-      - JOB="macOS + Swift Package Manager"
+      - JOB="Swift Package Manager / macOS"
+    before_install:
+      - swift package --enable-prefetching update
     script:
       - swift build
 
@@ -43,11 +75,12 @@ matrix:
     sudo: required
     language: generic
     env:
-      - JOB="Linux + Swift Package Manager"
+      - JOB="Swift Package Manager / Linux"
     script:
       - "export SWIFT_VERSION=4.0.3"
       - "eval \"$(curl -sL https://gist.githubusercontent.com/kylef/5c0475ff02b7c7671d2a/raw/9f442512a46d7a2af7b850d65a7e9bd31edfb09b/swiftenv-install.sh)\""
       - export LD_LIBRARY_PATH=$HOME/.swiftenv/versions/$SWIFT_VERSION/usr/lib/swift/linux:$LD_LIBRARY_PATH
+      - swift package --enable-prefetching update
       - swift build
 
 after_success:
