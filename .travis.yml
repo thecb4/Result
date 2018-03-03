@@ -126,7 +126,7 @@ script:
     Carthage)
       xcodebuild clean build test -project "$PROJECT.xcodeproj" -scheme "$PROJECT-$PLATFORM" -quiet -destination "$DESTINATION" -enableCodeCoverage YES | xcpretty;;
     SwiftPM)
-      swift build test;;
+      swift test;;
     *)
       ;;
     esac;
