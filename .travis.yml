@@ -103,7 +103,6 @@ matrix:
     - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=Carthage   PLATFORM=iOS       DESTINATION="platform=iOS Simulator,name=iPhone 8"' }
     - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=Carthage   PLATFORM=tvOS      DESTINATION="platform=tvOS Simulator,name=Apple TV"' }
     - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=SwiftPM' }
-    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=SwiftPM' }
     - { os: linux,    dist: trusty,   sudo: required,   language: generic,    env:  'DEPMGT=SwiftPM SWIFT_VERSION=4.0'}
 
 before_install:
@@ -124,7 +123,8 @@ script:
   - set -o pipefail;
     case $DEPMGT in
     Carthage)
-      xcodebuild clean build test -project "$PROJECT.xcodeproj" -scheme "$PROJECT-$PLATFORM" -quiet -destination "$DESTINATION" -enableCodeCoverage YES | xcpretty;;
+      xcodebuild clean build test -project "$PROJECT.xcodeproj" -scheme "$PROJECT-$PLATFORM" -quiet -destination "$DESTINATION" -enableCodeCoverage YES | xcpretty;
+      carthage build --no-skip-current --platform $PLATFORM;;
     SwiftPM)
       swift test;;
     *)

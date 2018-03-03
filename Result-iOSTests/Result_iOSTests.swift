@@ -1,14 +1,14 @@
 //
-//  Result_phoneOSTests.swift
-//  Result-phoneOSTests
+//  Result_iOSTests.swift
+//  Result-iOSTests
 //
-//  Created by Cavelle Benjamin on 18-Feb-25 (08).
+//  Created by Cavelle Benjamin on 18-Mar-03 (09).
 //
 
 import XCTest
-@testable import Result_phoneOS
+@testable import Result
 
-class Result_phoneOSTests: XCTestCase {
+class Result_iOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
