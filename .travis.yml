@@ -109,7 +109,7 @@ matrix:
 before_install:
   - case $DEPMGT in
     Carthage)
-      brew update;;
+      brew update;
       brew outdated carthage || brew upgrade carthage;;
     SwiftPM)
       - if [ "$TRAVIS_OS_NAME" == "linux" ]; then
@@ -125,7 +125,7 @@ script:
     Carthage)
       xcodebuild clean build -project "$PROJECT.xcodeproj" -scheme "$PROJECT-$PLATFORM" -quiet -destination "$DESTINATION" test -enableCodeCoverage YES | xcpretty;;
     SwiftPM)
-      swift build test
+      swift build test;;
     *)
       ;;
     esac;
