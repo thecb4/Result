@@ -1,142 +1,146 @@
-# matrix:
-#   include:
-#   - os: osx
-#     osx_image: xcode9.2
-#     language: objective-c
-#     env:
-#       - JOB="Carthage / macOS"
-#       - ACTION=build  PLATFORM=Mac     SCHEME='Result-macOS' DESTINATION="platform=OS X"
-#     before_install:
-#       - brew update
-#       - brew outdated carthage || brew upgrade carthage
-#       # - carthage update --platform macOS
-#     script:
-#       - swift package update
-#       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
-#       - carthage build --no-skip-current --platform macOS
-#
-#   - os: osx
-#     osx_image: xcode9.2
-#     language: objective-c
-#     env:
-#       - JOB="Carthage / iOS"
-#       - ACTION=build  PLATFORM=iOS     SCHEME='Result-phoneOS' DESTINATION="platform=iOS Simulator,name=iPhone 8"
-#     before_install:
-#       - brew update
-#       - brew outdated carthage || brew upgrade carthage
-#       # - carthage update --platform iOS
-#     script:
-#       - swift package update
-#       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
-#       - carthage build --no-skip-current --platform iOS
-#
-#   - os: osx
-#     osx_image: xcode9.2
-#     language: objective-c
-#     env:
-#       - JOB="Carthage / watchOS"
-#       - ACTION=build  PLATFORM=watchOS     SCHEME='Result-watchOS' DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
-#     before_install:
-#       - brew update
-#       - brew outdated carthage || brew upgrade carthage
-#       # - carthage update --platform watchOS
-#     script:
-#       - swift package update
-#       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
-#       - carthage build --no-skip-current --platform watchOS
-#
-#   - os: osx
-#     osx_image: xcode9.2
-#     language: objective-c
-#     env:
-#       - JOB="Carthage / tvOS"
-#       - ACTION=build  PLATFORM=tvOS    SCHEME='Result-tvOS'    DESTINATION="platform=tvOS Simulator,name=Apple TV"
-#     before_install:
-#       - brew update
-#       - brew outdated carthage || brew upgrade carthage
-#       # - carthage update --platform tvOS
-#     script:
-#       - swift package update
-#       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
-#       - carthage build --no-skip-current --platform tvOS
-#
-#   - os: osx
-#     osx_image: xcode9.2
-#     language: objective-c
-#     env:
-#       - JOB="Swift Package Manager / macOS"
-#     before_install:
-#       - swift package --enable-prefetching update
-#     script:
-#       - swift build
-#
-#   - os: linux
-#     dist: trusty
-#     sudo: required
-#     language: generic
-#     env:
-#       - JOB="Swift Package Manager / Linux"
-#     script:
-#       - "export SWIFT_VERSION=4.0.3"
-#       - "eval \"$(curl -sL https://gist.githubusercontent.com/kylef/5c0475ff02b7c7671d2a/raw/9f442512a46d7a2af7b850d65a7e9bd31edfb09b/swiftenv-install.sh)\""
-#       - export LD_LIBRARY_PATH=$HOME/.swiftenv/versions/$SWIFT_VERSION/usr/lib/swift/linux:$LD_LIBRARY_PATH
-#       - swift package --enable-prefetching update
-#       - swift build
-#
-# after_success:
-#   - bash <(curl -s https://codecov.io/bash)
-#
-# notifications:
-#   email: true
+  # matrix:
+  #   include:
+  #   - os: osx
+  #     osx_image: xcode9.2
+  #     language: objective-c
+  #     env:
+  #       - JOB="Carthage / macOS"
+  #       - ACTION=build  PLATFORM=Mac     SCHEME='Result-macOS' DESTINATION="platform=OS X"
+  #     before_install:
+  #       - brew update
+  #       - brew outdated carthage || brew upgrade carthage
+  #       # - carthage update --platform macOS
+  #     script:
+  #       - swift package update
+  #       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+  #       - carthage build --no-skip-current --platform macOS
+  #
+  #   - os: osx
+  #     osx_image: xcode9.2
+  #     language: objective-c
+  #     env:
+  #       - JOB="Carthage / iOS"
+  #       - ACTION=build  PLATFORM=iOS     SCHEME='Result-phoneOS' DESTINATION="platform=iOS Simulator,name=iPhone 8"
+  #     before_install:
+  #       - brew update
+  #       - brew outdated carthage || brew upgrade carthage
+  #       # - carthage update --platform iOS
+  #     script:
+  #       - swift package update
+  #       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+  #       - carthage build --no-skip-current --platform iOS
+  #
+  #   - os: osx
+  #     osx_image: xcode9.2
+  #     language: objective-c
+  #     env:
+  #       - JOB="Carthage / watchOS"
+  #       - ACTION=build  PLATFORM=watchOS     SCHEME='Result-watchOS' DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
+  #     before_install:
+  #       - brew update
+  #       - brew outdated carthage || brew upgrade carthage
+  #       # - carthage update --platform watchOS
+  #     script:
+  #       - swift package update
+  #       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+  #       - carthage build --no-skip-current --platform watchOS
+  #
+  #   - os: osx
+  #     osx_image: xcode9.2
+  #     language: objective-c
+  #     env:
+  #       - JOB="Carthage / tvOS"
+  #       - ACTION=build  PLATFORM=tvOS    SCHEME='Result-tvOS'    DESTINATION="platform=tvOS Simulator,name=Apple TV"
+  #     before_install:
+  #       - brew update
+  #       - brew outdated carthage || brew upgrade carthage
+  #       # - carthage update --platform tvOS
+  #     script:
+  #       - swift package update
+  #       - xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+  #       - carthage build --no-skip-current --platform tvOS
+  #
+  #   - os: osx
+  #     osx_image: xcode9.2
+  #     language: objective-c
+  #     env:
+  #       - JOB="Swift Package Manager / macOS"
+  #     before_install:
+  #       - swift package --enable-prefetching update
+  #     script:
+  #       - swift build
+  #
+  #   - os: linux
+  #     dist: trusty
+  #     sudo: required
+  #     language: generic
+  #     env:
+  #       - JOB="Swift Package Manager / Linux"
+  #     script:
+  #       - "export SWIFT_VERSION=4.0.3"
+  #       - "eval \"$(curl -sL https://gist.githubusercontent.com/kylef/5c0475ff02b7c7671d2a/raw/9f442512a46d7a2af7b850d65a7e9bd31edfb09b/swiftenv-install.sh)\""
+  #       - export LD_LIBRARY_PATH=$HOME/.swiftenv/versions/$SWIFT_VERSION/usr/lib/swift/linux:$LD_LIBRARY_PATH
+  #       - swift package --enable-prefetching update
+  #       - swift build
+  #
+  # after_success:
+  #   - bash <(curl -s https://codecov.io/bash)
+  #
+  # notifications:
+  #   email: true
 
-# ------------------------------------------------------------------------------
+  # ------------------------------------------------------------------------------
+
+language: generic
 
 env:
   global:
-    - PROJECT: Result
+    - PROJECT=Result
 
 matrix:
   include:
-    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env:'DEPMGT=Carthage   PLATFORM=Mac       DESTINATION="platform=OS X"' }
-    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env:'DEPMGT=Carthage   PLATFORM=iOS       DESTINATION="platform=iOS Simulator,name=iPhone 8"' }
-    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env:'DEPMGT=Carthage   PLATFORM=tvOS      DESTINATION="platform=tvOS Simulator,name=Apple TV"' }
-    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env:'DEPMGT=SwiftPM' }
-    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env:'DEPMGT=SwiftPM' }
-    - { os: linux,    dist: trusty,   sudo: required,   language: generic,    env:'DEPMGT=SPM SWIFT_VERSION=4.1'}
+    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=Carthage   PLATFORM=Mac       DESTINATION="platform=OS X"' }
+    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=Carthage   PLATFORM=iOS       DESTINATION="platform=iOS Simulator,name=iPhone 8"' }
+    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=Carthage   PLATFORM=tvOS      DESTINATION="platform=tvOS Simulator,name=Apple TV"' }
+    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=SwiftPM' }
+    - { os: osx,   language: objective-c,   osx_image: xcode9.2,   env: 'DEPMGT=SwiftPM' }
+    - { os: linux,    dist: trusty,   sudo: required,   language: generic,    env:  'DEPMGT=SwiftPM SWIFT_VERSION=4.1'}
 
 before_install:
-  - case $DEPMGT in
-    Carthage)
-      - brew update
-      - brew outdated carthage || brew upgrade carthage
-      # carthage bootstrap --cache-builds --no-use-binaries --platform $PLATFORM --verbose;
-    SwiftPM)
-      - if [ "$TRAVIS_OS_NAME" == "linux" ]; then
-          eval "$(curl -sL https://swiftenv.fuller.li/install.sh)";
-        fi
-      - swift package --enable-prefetching update
-    *)
-      ;;
+  - |
+    case $DEPMGT in
+      Carthage)
+        brew update
+        brew outdated carthage || brew upgrade carthage
+        # carthage bootstrap --cache-builds --no-use-binaries --platform $PLATFORM --verbose;
+      SwiftPM)
+        - if [ "$TRAVIS_OS_NAME" == "linux" ]; then
+            eval "$(curl -sL https://swiftenv.fuller.li/install.sh)";
+          fi
+        - swift package --enable-prefetching update
+      *)
+        ;;
     esac
 
 script:
-  - case $DEPMGT in
-    Carthage)
-      # xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
-      xcodebuild clean build -project "$PROJECT.xcodeproj" -scheme "$PROJECT-$PLATFORM" -quiet -destination "$DESTINATION" test -enableCodeCoverage YES | xcpretty;;
-    SWIFTPM)
-      swift build test
-    *)
-      ;;
+  - |
+    case $DEPMGT in
+      Carthage)
+        # xcodebuild clean $ACTION -project Result.xcodeproj -scheme $SCHEME -destination "$DESTINATION"
+        xcodebuild clean build -project "$PROJECT.xcodeproj" -scheme "$PROJECT-$PLATFORM" -quiet -destination "$DESTINATION" test -enableCodeCoverage YES | xcpretty;;
+      SWIFTPM)
+        swift build test
+      *)
+        ;;
     esac
 
 after_success:
-  - case $DEPMGT in
+  case $DEPMGT in
     Carthage)
       bash <(curl -s https://codecov.io/bash)
     *)
       ;;
-    esac
+  esac
 
 notifications:
   email: true
