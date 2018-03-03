@@ -112,10 +112,10 @@ before_install:
       brew update;
       brew outdated carthage || brew upgrade carthage;;
     SwiftPM)
-      - if [ "$TRAVIS_OS_NAME" == "linux" ]; then
+      if [ "$TRAVIS_OS_NAME" == "linux" ]; then
           eval "$(curl -sL https://swiftenv.fuller.li/install.sh)";
-        fi;
-        swift package --enable-prefetching update;
+      fi;
+      swift package --enable-prefetching update;;
     *)
       ;;
     esac;
