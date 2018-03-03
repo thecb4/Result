@@ -124,7 +124,7 @@ script:
   - set -o pipefail;
     case $DEPMGT in
     Carthage)
-      xcodebuild clean build -project "$PROJECT.xcodeproj" -scheme "$PROJECT-$PLATFORM" -quiet -destination "$DESTINATION" test -enableCodeCoverage YES | xcpretty;;
+      xcodebuild clean build test -project "$PROJECT.xcodeproj" -scheme "$PROJECT-$PLATFORM" -quiet -destination "$DESTINATION" -enableCodeCoverage YES | xcpretty;;
     SwiftPM)
       swift build test;;
     *)
