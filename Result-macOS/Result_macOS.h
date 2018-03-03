@@ -2,7 +2,7 @@
 //  Result_macOS.h
 //  Result-macOS
 //
-//  Created by Cavelle Benjamin on 18-Feb-25 (08).
+//  Created by Cavelle Benjamin on 18-Mar-03 (09).
 //
 
 #import <Cocoa/Cocoa.h>

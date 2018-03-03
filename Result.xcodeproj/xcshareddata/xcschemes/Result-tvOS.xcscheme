@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9069BD4204378BB00760A84"
-               BuildableName = "Result.framework"
+               BlueprintIdentifier = "E9069D0A204B4AC700760A84"
+               BuildableName = "Result_tvOS.framework"
                BlueprintName = "Result-tvOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9069BDC204378BB00760A84"
+               BlueprintIdentifier = "E9069D12204B4AC700760A84"
                BuildableName = "Result-tvOSTests.xctest"
                BlueprintName = "Result-tvOSTests"
                ReferencedContainer = "container:Result.xcodeproj">
@@ -43,8 +43,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069BD4204378BB00760A84"
-            BuildableName = "Result.framework"
+            BlueprintIdentifier = "E9069D0A204B4AC700760A84"
+            BuildableName = "Result_tvOS.framework"
             BlueprintName = "Result-tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
@@ -66,8 +66,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069BD4204378BB00760A84"
-            BuildableName = "Result.framework"
+            BlueprintIdentifier = "E9069D0A204B4AC700760A84"
+            BuildableName = "Result_tvOS.framework"
             BlueprintName = "Result-tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
@@ -84,8 +84,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069BD4204378BB00760A84"
-            BuildableName = "Result.framework"
+            BlueprintIdentifier = "E9069D0A204B4AC700760A84"
+            BuildableName = "Result_tvOS.framework"
             BlueprintName = "Result-tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
