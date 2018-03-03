@@ -2,11 +2,11 @@
 //  Result_macOSTests.swift
 //  Result-macOSTests
 //
-//  Created by Cavelle Benjamin on 18-Feb-25 (08).
+//  Created by Cavelle Benjamin on 18-Mar-03 (09).
 //
 
 import XCTest
-@testable import Result_macOS
+@testable import Result
 
 class Result_macOSTests: XCTestCase {
     
