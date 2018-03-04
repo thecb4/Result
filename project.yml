@@ -1,0 +1,68 @@
+name: Result
+options:
+  usesTabs: false
+  indentWidth: 2
+  createIntermediateGroups: true
+  bundleIdPrefix: io.thecb4
+  settingPresets: all
+configs:
+  Debug: debug
+  Release: release
+fileGroups:
+  - Sources
+  - Tests
+targets:
+  Result:
+    type: framework
+    platform: [macOS, iOS, tvOS, watchOS]
+    sources:
+      - Sources/Core
+      - Sources/$platform
+    scheme:
+      # configVariants:
+      #   - Debug
+      #   - Release
+      testTargets:
+        - ResultUnitTests_$platform
+        # - GenKitUITests_$platform
+      # build:
+      #   targets:
+      #     - target: GenKit
+      #       buildTypes: all
+      #     - target: GenKitUnitTests_$platform
+      #       buildTypes: testing
+      # test:
+      #   config: Debug
+      # run:
+      #   config: Debug
+      # analyze:
+        # config: Debug
+      gatherCoverageData: true
+      commandLineArguments:
+        # "-MyEnabledArg": true
+        # "-MyDisabledArg": false
+    # settings:
+    #   PRODUCT_MODULE_NAME: $(PROJECT_NAME)
+    #   PRODUCT_NAME: $(PROJECT_NAME)
+  ResultUnitTests:
+    type: bundle.unit-test
+    platform: [macOS, iOS, tvOS, watchOS]
+    sources:
+      - Tests/Unit/Core
+      - Tests/Unit/$platform
+    dependencies:
+      # - carthage: RxSwift
+      # - carthage: Dwifft
+      # - carthage: SwiftCheck
+      - target: Result_$platform
+  # GenKitUITests:
+  #   type: bundle.ui-testing
+  #   platform: [macOS, iOS, tvOS, watchOS]
+  #   sources:
+  #     - Framework/Tests/UI/Core
+  #     - Framework/Tests/UI/Core/$platform
+  #   dependencies:
+  #     # - carthage: RxSwift
+  #     # - carthage: Dwifft
+  #     # - carthage: SwiftCheck
+  #     - target: GenKit_$platform
