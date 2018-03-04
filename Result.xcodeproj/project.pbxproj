@@ -8,44 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		BF_113204523118 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_404799423449 /* Result.framework */; };
-		BF_118396034728 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_454326603018 /* NoErrorTests.swift */; };
-		BF_165018002226 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_394974862226 /* AnyErrorTests.swift */; };
 		BF_188000903017 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
-		BF_197678805107 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_571147102480 /* ResultTests.swift */; };
 		BF_198505789306 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
+		BF_232644411023 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
 		BF_235901815099 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
 		BF_238121223753 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
+		BF_244194013998 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
 		BF_247608186789 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
 		BF_252638363858 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
-		BF_264285245446 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_382514223238 /* LinuxMain.swift */; };
-		BF_289719069568 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_394974862226 /* AnyErrorTests.swift */; };
 		BF_329020407488 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
+		BF_334813364441 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
+		BF_369325561703 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
 		BF_408697711610 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
 		BF_410658881989 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
 		BF_419101858606 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_631776655622 /* Result.framework */; };
 		BF_442459949830 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
-		BF_454547839153 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_454326603018 /* NoErrorTests.swift */; };
-		BF_482744729769 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_382514223238 /* LinuxMain.swift */; };
+		BF_458159101558 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
 		BF_490448215850 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
-		BF_501531651799 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_394974862226 /* AnyErrorTests.swift */; };
 		BF_505562501017 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
+		BF_506663984688 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
+		BF_530881036640 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
 		BF_545416006101 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
 		BF_563499316299 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
-		BF_565396000097 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_454326603018 /* NoErrorTests.swift */; };
-		BF_592078616030 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_394974862226 /* AnyErrorTests.swift */; };
-		BF_609296818709 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_571147102480 /* ResultTests.swift */; };
-		BF_616181853747 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_571147102480 /* ResultTests.swift */; };
+		BF_563759709340 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_904088703543 /* LinuxMain.swift */; };
 		BF_638902956120 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
 		BF_640221818400 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
+		BF_645021867809 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_904088703543 /* LinuxMain.swift */; };
+		BF_683609278436 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
+		BF_692285602328 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
+		BF_706946667132 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_904088703543 /* LinuxMain.swift */; };
 		BF_716494714585 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_340163989783 /* Result.framework */; };
+		BF_721994011213 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
 		BF_727381636047 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_561021316926 /* Result.framework */; };
-		BF_759196449253 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_382514223238 /* LinuxMain.swift */; };
+		BF_753500850319 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
 		BF_763465744096 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
-		BF_816624473391 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_454326603018 /* NoErrorTests.swift */; };
-		BF_831516173716 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_382514223238 /* LinuxMain.swift */; };
-		BF_857831981023 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_571147102480 /* ResultTests.swift */; };
+		BF_831338797762 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
 		BF_884046848628 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
 		BF_900659563774 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
+		BF_918291497288 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_904088703543 /* LinuxMain.swift */; };
 		BF_921602409142 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,7 +82,10 @@
 
 /* Begin PBXFileReference section */
 		FR_147233867643 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_216183000319 /* AnyErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyErrorTests.swift; sourceTree = "<group>"; };
+		FR_220957590461 /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
 		FR_307897173508 /* ResultProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultProtocol.swift; sourceTree = "<group>"; };
+		FR_311894297497 /* NoErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoErrorTests.swift; sourceTree = "<group>"; };
 		FR_340163989783 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_382514223238 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		FR_394974862226 /* AnyErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyErrorTests.swift; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 		FR_631776655622 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_693696808105 /* AnyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
 		FR_791892860313 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_904088703543 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		FR_912158497325 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		FR_944612014707 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +140,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		G_1451359866185 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
 		G_1976603282054 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,11 +161,11 @@
 			path = watchOS;
 			sourceTree = "<group>";
 		};
-		G_2921839049230 /* tvOS */ = {
+		G_2538720313990 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = tvOS;
+			path = Unit;
 			sourceTree = "<group>";
 		};
 		G_2921871289152 /* Core */ = {
@@ -178,16 +189,14 @@
 		G_4799464745106 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				G_8220654187590 /* Core */,
 				G_8220653324983 /* Unit */,
+				G_9023978728767 /* iOS */,
+				G_8513730905473 /* macOS */,
+				G_8220652763328 /* tvOS */,
+				G_7175644582771 /* watchOS */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		G_5107589895492 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		G_5461104413988 /* tvOS */ = {
@@ -209,30 +218,61 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		G_7363558527055 /* watchOS */ = {
+		G_5781829628030 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
+				FR_216183000319 /* AnyErrorTests.swift */,
+				FR_904088703543 /* LinuxMain.swift */,
+				FR_311894297497 /* NoErrorTests.swift */,
+				FR_220957590461 /* ResultTests.swift */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		G_6048709814767 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		G_7175644582771 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				G_2538720313990 /* Unit */,
 			);
 			path = watchOS;
 			sourceTree = "<group>";
 		};
-		G_7416862568813 /* iOS */ = {
+		G_7303682511734 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = iOS;
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		G_8220652763328 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				G_7303682511734 /* Unit */,
+			);
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 		G_8220653324983 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
 				G_2921871289152 /* Core */,
-				G_7416862568813 /* iOS */,
-				G_5107589895492 /* macOS */,
-				G_2921839049230 /* tvOS */,
-				G_7363558527055 /* watchOS */,
 			);
 			path = Unit;
+			sourceTree = "<group>";
+		};
+		G_8220654187590 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				G_5781829628030 /* Unit */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		G_8448771205358 = {
@@ -245,6 +285,14 @@
 			indentWidth = 2;
 			sourceTree = "<group>";
 			usesTabs = 0;
+		};
+		G_8513730905473 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				G_1451359866185 /* Unit */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
 		};
 		G_8620238527590 /* Products */ = {
 			isa = PBXGroup;
@@ -271,6 +319,14 @@
 				G_2374943743384 /* watchOS */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		G_9023978728767 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				G_6048709814767 /* Unit */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,7 +470,6 @@
 				TargetAttributes = {
 					NT_427318300658 = {
 						DevelopmentTeam = HFXFKGB6U5;
-						ProvisioningStyle = Automatic;
 					};
 					NT_944612014707 = {
 						DevelopmentTeam = HFXFKGB6U5;
@@ -446,10 +501,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_289719069568 /* AnyErrorTests.swift in Sources */,
-				BF_759196449253 /* LinuxMain.swift in Sources */,
-				BF_816624473391 /* NoErrorTests.swift in Sources */,
-				BF_616181853747 /* ResultTests.swift in Sources */,
+				BF_721994011213 /* AnyErrorTests.swift in Sources */,
+				BF_645021867809 /* LinuxMain.swift in Sources */,
+				BF_530881036640 /* NoErrorTests.swift in Sources */,
+				BF_244194013998 /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,10 +536,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_592078616030 /* AnyErrorTests.swift in Sources */,
-				BF_482744729769 /* LinuxMain.swift in Sources */,
-				BF_565396000097 /* NoErrorTests.swift in Sources */,
-				BF_197678805107 /* ResultTests.swift in Sources */,
+				BF_753500850319 /* AnyErrorTests.swift in Sources */,
+				BF_706946667132 /* LinuxMain.swift in Sources */,
+				BF_232644411023 /* NoErrorTests.swift in Sources */,
+				BF_369325561703 /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,10 +571,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_165018002226 /* AnyErrorTests.swift in Sources */,
-				BF_831516173716 /* LinuxMain.swift in Sources */,
-				BF_118396034728 /* NoErrorTests.swift in Sources */,
-				BF_609296818709 /* ResultTests.swift in Sources */,
+				BF_458159101558 /* AnyErrorTests.swift in Sources */,
+				BF_563759709340 /* LinuxMain.swift in Sources */,
+				BF_831338797762 /* NoErrorTests.swift in Sources */,
+				BF_692285602328 /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,10 +582,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_501531651799 /* AnyErrorTests.swift in Sources */,
-				BF_264285245446 /* LinuxMain.swift in Sources */,
-				BF_454547839153 /* NoErrorTests.swift in Sources */,
-				BF_857831981023 /* ResultTests.swift in Sources */,
+				BF_334813364441 /* AnyErrorTests.swift in Sources */,
+				BF_918291497288 /* LinuxMain.swift in Sources */,
+				BF_506663984688 /* NoErrorTests.swift in Sources */,
+				BF_683609278436 /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,13 +762,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HFXFKGB6U5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-tvOS";
 				PRODUCT_NAME = ResultUnitTests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
@@ -905,13 +957,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HFXFKGB6U5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-tvOS";
 				PRODUCT_NAME = ResultUnitTests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
