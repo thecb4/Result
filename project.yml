@@ -54,7 +54,7 @@ targets:
       # - carthage: RxSwift
       # - carthage: Dwifft
       # - carthage: SwiftCheck
-      - target: Result_$platform
+      - carthage: Result
   # GenKitUITests:
   #   type: bundle.ui-testing
   #   platform: [macOS, iOS, tvOS, watchOS]
