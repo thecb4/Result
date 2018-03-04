@@ -34,6 +34,7 @@ targets:
       # - carthage: Dwifft
       # - carthage: SwiftCheck
       - target: Result_$platform
+        implicit: true
   # GenKitUITests:
   #   type: bundle.ui-testing
   #   platform: [macOS, iOS, tvOS, watchOS]
