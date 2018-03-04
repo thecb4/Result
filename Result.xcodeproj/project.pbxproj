@@ -7,76 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF_113204523118 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_404799423449 /* Result.framework */; };
+		BF_133075497380 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_513564295208 /* AnyErrorTests.swift */; };
+		BF_144785638121 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_669259574524 /* NoErrorTests.swift */; };
+		BF_163877309358 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_816146312062 /* ResultTests.swift */; };
 		BF_188000903017 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
 		BF_198505789306 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
-		BF_232644411023 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
+		BF_221697405909 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_669259574524 /* NoErrorTests.swift */; };
 		BF_235901815099 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
 		BF_238121223753 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
-		BF_244194013998 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
 		BF_247608186789 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
 		BF_252638363858 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
 		BF_264002084545 = {isa = PBXBuildFile; fileRef = FR_944612014707 /* ResultUnitTests.xctest */; };
+		BF_289976008459 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_513564295208 /* AnyErrorTests.swift */; };
 		BF_307594956810 = {isa = PBXBuildFile; fileRef = FR_404799423449 /* Result.framework */; };
 		BF_329020407488 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
-		BF_334813364441 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
 		BF_357473591725 = {isa = PBXBuildFile; fileRef = FR_147233867643 /* ResultUnitTests.xctest */; };
-		BF_363766266970 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_131384036341 /* Result.framework */; };
-		BF_369325561703 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
 		BF_370876287209 = {isa = PBXBuildFile; fileRef = FR_561021316926 /* Result.framework */; };
 		BF_408697711610 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
 		BF_410658881989 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
+		BF_419101858606 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_631776655622 /* Result.framework */; };
 		BF_442459949830 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
-		BF_458159101558 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
 		BF_490448215850 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
 		BF_505562501017 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
-		BF_506663984688 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
 		BF_523872213345 = {isa = PBXBuildFile; fileRef = FR_340163989783 /* Result.framework */; };
-		BF_530881036640 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
 		BF_545416006101 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
 		BF_563499316299 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
+		BF_626418321381 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_669259574524 /* NoErrorTests.swift */; };
 		BF_638902956120 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
-		BF_639209231929 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_669811003841 /* Result.framework */; };
 		BF_640221818400 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
 		BF_640648289217 = {isa = PBXBuildFile; fileRef = FR_631776655622 /* Result.framework */; };
 		BF_653820855790 = {isa = PBXBuildFile; fileRef = FR_427318300658 /* ResultUnitTests.xctest */; };
-		BF_655646248288 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_763057275314 /* Result.framework */; };
-		BF_683609278436 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
-		BF_685477935446 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_584425140013 /* Result.framework */; };
-		BF_692285602328 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
-		BF_721994011213 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
-		BF_753500850319 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
+		BF_669572634182 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_816146312062 /* ResultTests.swift */; };
+		BF_677788161227 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_513564295208 /* AnyErrorTests.swift */; };
+		BF_716494714585 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_340163989783 /* Result.framework */; };
+		BF_727381636047 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_561021316926 /* Result.framework */; };
 		BF_763465744096 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
 		BF_812059017800 = {isa = PBXBuildFile; fileRef = FR_791892860313 /* ResultUnitTests.xctest */; };
-		BF_831338797762 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
+		BF_827868484642 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_816146312062 /* ResultTests.swift */; };
+		BF_838305815414 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_513564295208 /* AnyErrorTests.swift */; };
+		BF_866616798527 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_669259574524 /* NoErrorTests.swift */; };
 		BF_884046848628 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
+		BF_889790552280 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_816146312062 /* ResultTests.swift */; };
 		BF_900659563774 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
 		BF_921602409142 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CIP_14723386764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P_4791989303357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = NT_340163989783;
+			remoteInfo = Result_macOS;
+		};
+		CIP_42731830065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P_4791989303357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = NT_631776655622;
+			remoteInfo = Result_tvOS;
+		};
+		CIP_79189286031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P_4791989303357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = NT_404799423449;
+			remoteInfo = Result_iOS;
+		};
+		CIP_94461201470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P_4791989303357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = NT_561021316926;
+			remoteInfo = Result_watchOS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		FR_131384036341 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
-		FR_138516697355 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		FR_147233867643 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_216183000319 /* AnyErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyErrorTests.swift; sourceTree = "<group>"; };
-		FR_220957590461 /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
-		FR_284345430280 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		FR_292304349049 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		FR_307897173508 /* ResultProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultProtocol.swift; sourceTree = "<group>"; };
-		FR_311894297497 /* NoErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoErrorTests.swift; sourceTree = "<group>"; };
 		FR_340163989783 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_394974862226 /* AnyErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyErrorTests.swift; sourceTree = "<group>"; };
 		FR_404799423449 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_427318300658 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_433801143118 /* NoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoError.swift; sourceTree = "<group>"; };
-		FR_454326603018 /* NoErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoErrorTests.swift; sourceTree = "<group>"; };
 		FR_462858968896 /* Result.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.ext.swift; sourceTree = "<group>"; };
+		FR_513564295208 /* AnyErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyErrorTests.swift; sourceTree = "<group>"; };
 		FR_561021316926 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_571147102480 /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
-		FR_584425140013 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 		FR_631776655622 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_669811003841 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
+		FR_669259574524 /* NoErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoErrorTests.swift; sourceTree = "<group>"; };
 		FR_693696808105 /* AnyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
-		FR_763057275314 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 		FR_791892860313 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_816146312062 /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
 		FR_912158497325 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		FR_944612014707 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_363766266970 /* Result.framework in Frameworks */,
+				BF_716494714585 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_639209231929 /* Result.framework in Frameworks */,
+				BF_419101858606 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_655646248288 /* Result.framework in Frameworks */,
+				BF_113204523118 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,28 +133,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_685477935446 /* Result.framework in Frameworks */,
+				BF_727381636047 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		G_1451359866185 /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Unit;
-			sourceTree = "<group>";
-		};
-		G_1952740716080 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				G_2883690153011 /* Carthage */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		G_1976603282054 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,20 +147,16 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		G_2262017438925 /* iOS */ = {
+		G_2149249331125 /* ResultUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				FR_763057275314 /* Result.framework */,
+				G_8881857004629 /* Core */,
+				G_8201470609198 /* iOS */,
+				G_8697946936973 /* macOS */,
+				G_8663552510736 /* tvOS */,
+				G_3969329702168 /* watchOS */,
 			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		G_2262017442691 /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				FR_131384036341 /* Result.framework */,
-			);
-			path = Mac;
+			path = ResultUnitTests;
 			sourceTree = "<group>";
 		};
 		G_2374943743384 /* watchOS */ = {
@@ -162,35 +166,6 @@
 			path = watchOS;
 			sourceTree = "<group>";
 		};
-		G_2538720313990 /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Unit;
-			sourceTree = "<group>";
-		};
-		G_2883690153011 /* Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				G_2262017442691 /* Mac */,
-				G_2262017438925 /* iOS */,
-				G_8628897169668 /* tvOS */,
-				G_8244488572839 /* watchOS */,
-			);
-			name = Carthage;
-			path = Carthage/Build;
-			sourceTree = "<group>";
-		};
-		G_2921871289152 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FR_394974862226 /* AnyErrorTests.swift */,
-				FR_454326603018 /* NoErrorTests.swift */,
-				FR_571147102480 /* ResultTests.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		G_3401875976182 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,16 +173,18 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		G_3969329702168 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
 		G_4799464745106 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				G_8220654187590 /* Core */,
-				G_8220653324983 /* Unit */,
-				G_9023978728767 /* iOS */,
-				G_8513721971624 /* linux */,
-				G_8513730905473 /* macOS */,
-				G_8220652763328 /* tvOS */,
-				G_7175644582771 /* watchOS */,
+				G_2149249331125 /* ResultUnitTests */,
+				FR_292304349049 /* LinuxMain.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -231,74 +208,16 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		G_5781829628030 /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-				FR_216183000319 /* AnyErrorTests.swift */,
-				FR_311894297497 /* NoErrorTests.swift */,
-				FR_220957590461 /* ResultTests.swift */,
-			);
-			path = Unit;
-			sourceTree = "<group>";
-		};
-		G_6048709814767 /* Unit */ = {
+		G_8201470609198 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Unit;
-			sourceTree = "<group>";
-		};
-		G_7175644582771 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				G_2538720313990 /* Unit */,
-			);
-			path = watchOS;
-			sourceTree = "<group>";
-		};
-		G_7303682511734 /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Unit;
-			sourceTree = "<group>";
-		};
-		G_8220652763328 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				G_7303682511734 /* Unit */,
-			);
-			path = tvOS;
-			sourceTree = "<group>";
-		};
-		G_8220653324983 /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-				G_2921871289152 /* Core */,
-			);
-			path = Unit;
-			sourceTree = "<group>";
-		};
-		G_8220654187590 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				G_5781829628030 /* Unit */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		G_8244488572839 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				FR_584425140013 /* Result.framework */,
-			);
-			path = watchOS;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		G_8448771205358 = {
 			isa = PBXGroup;
 			children = (
-				G_1952740716080 /* Frameworks */,
 				G_8620238527590 /* Products */,
 				G_8934779235101 /* Sources */,
 				G_4799464745106 /* Tests */,
@@ -306,22 +225,6 @@
 			indentWidth = 2;
 			sourceTree = "<group>";
 			usesTabs = 0;
-		};
-		G_8513721971624 /* linux */ = {
-			isa = PBXGroup;
-			children = (
-				FR_138516697355 /* LinuxMain.swift */,
-			);
-			path = linux;
-			sourceTree = "<group>";
-		};
-		G_8513730905473 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				G_1451359866185 /* Unit */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
 		};
 		G_8620238527590 /* Products */ = {
 			isa = PBXGroup;
@@ -338,12 +241,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		G_8628897169668 /* tvOS */ = {
+		G_8663552510736 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				FR_669811003841 /* Result.framework */,
 			);
 			path = tvOS;
+			sourceTree = "<group>";
+		};
+		G_8697946936973 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		G_8881857004629 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FR_513564295208 /* AnyErrorTests.swift */,
+				FR_669259574524 /* NoErrorTests.swift */,
+				FR_816146312062 /* ResultTests.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		G_8934779235101 /* Sources */ = {
@@ -356,15 +275,6 @@
 				G_2374943743384 /* watchOS */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		G_9023978728767 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				G_6048709814767 /* Unit */,
-				FR_284345430280 /* LinuxMain.swift */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +290,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				TD_257106718256 /* PBXTargetDependency */,
 			);
 			name = ResultUnitTests_macOS;
 			productName = ResultUnitTests_macOS;
@@ -426,6 +337,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				TD_744897852351 /* PBXTargetDependency */,
 			);
 			name = ResultUnitTests_tvOS;
 			productName = ResultUnitTests_tvOS;
@@ -472,6 +384,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				TD_518560983569 /* PBXTargetDependency */,
 			);
 			name = ResultUnitTests_iOS;
 			productName = ResultUnitTests_iOS;
@@ -488,6 +401,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				TD_357443303512 /* PBXTargetDependency */,
 			);
 			name = ResultUnitTests_watchOS;
 			productName = ResultUnitTests_watchOS;
@@ -529,9 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_721994011213 /* AnyErrorTests.swift in Sources */,
-				BF_530881036640 /* NoErrorTests.swift in Sources */,
-				BF_244194013998 /* ResultTests.swift in Sources */,
+				BF_289976008459 /* AnyErrorTests.swift in Sources */,
+				BF_626418321381 /* NoErrorTests.swift in Sources */,
+				BF_669572634182 /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,9 +477,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_753500850319 /* AnyErrorTests.swift in Sources */,
-				BF_232644411023 /* NoErrorTests.swift in Sources */,
-				BF_369325561703 /* ResultTests.swift in Sources */,
+				BF_677788161227 /* AnyErrorTests.swift in Sources */,
+				BF_144785638121 /* NoErrorTests.swift in Sources */,
+				BF_163877309358 /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,9 +511,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_458159101558 /* AnyErrorTests.swift in Sources */,
-				BF_831338797762 /* NoErrorTests.swift in Sources */,
-				BF_692285602328 /* ResultTests.swift in Sources */,
+				BF_838305815414 /* AnyErrorTests.swift in Sources */,
+				BF_221697405909 /* NoErrorTests.swift in Sources */,
+				BF_889790552280 /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,23 +521,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF_334813364441 /* AnyErrorTests.swift in Sources */,
-				BF_506663984688 /* NoErrorTests.swift in Sources */,
-				BF_683609278436 /* ResultTests.swift in Sources */,
+				BF_133075497380 /* AnyErrorTests.swift in Sources */,
+				BF_866616798527 /* NoErrorTests.swift in Sources */,
+				BF_827868484642 /* ResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		TD_257106718256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = NT_340163989783 /* Result_macOS */;
+			targetProxy = CIP_14723386764 /* PBXContainerItemProxy */;
+		};
+		TD_357443303512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = NT_561021316926 /* Result_watchOS */;
+			targetProxy = CIP_94461201470 /* PBXContainerItemProxy */;
+		};
+		TD_518560983569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = NT_404799423449 /* Result_iOS */;
+			targetProxy = CIP_79189286031 /* PBXContainerItemProxy */;
+		};
+		TD_744897852351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = NT_631776655622 /* Result_tvOS */;
+			targetProxy = CIP_42731830065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BC_140369906158 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-watchOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -638,10 +571,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-macOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -674,10 +603,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-iOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -774,10 +699,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-tvOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -846,10 +767,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-watchOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -863,10 +780,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-iOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -880,10 +793,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-macOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -983,10 +892,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-tvOS";
 				PRODUCT_NAME = ResultUnitTests;

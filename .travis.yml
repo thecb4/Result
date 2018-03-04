@@ -34,9 +34,9 @@ before_install:
 script:
   - case $DEPMGT in
     Carthage)
-      xcodebuild clean build -project "${PROJECT}.xcodeproj" -scheme "${PROJECT}_${PLATFORM}";
-      carthage build --no-skip-current --platform $PLATFORM;
-      set -o pipefail && xcodebuild test -project "${PROJECT}.xcodeproj" -scheme "${PROJECT}_${PLATFORM}" -quiet -destination "$DESTINATION" -enableCodeCoverage YES | xcpretty;;
+      xcodebuild clean build -project "${PROJECT}.xcodeproj" -scheme "${PROJECT}_${PLATFORM}" -quiet;
+      set -o pipefail && xcodebuild test -project "${PROJECT}.xcodeproj" -scheme "${PROJECT}_${PLATFORM}" -destination "$DESTINATION" -enableCodeCoverage YES -quiet | xcpretty;
+      carthage build --no-skip-current --platform $PLATFORM;;
     SwiftPM)
       swift test;;
     *)

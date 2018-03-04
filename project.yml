@@ -19,42 +19,21 @@ targets:
       - Sources/Core
       - Sources/$platform
     scheme:
-      # configVariants:
-      #   - Debug
-      #   - Release
       testTargets:
         - ResultUnitTests_$platform
-        # - GenKitUITests_$platform
-      # build:
-      #   targets:
-      #     - target: GenKit
-      #       buildTypes: all
-      #     - target: GenKitUnitTests_$platform
-      #       buildTypes: testing
-      # test:
-      #   config: Debug
-      # run:
-      #   config: Debug
-      # analyze:
-        # config: Debug
       gatherCoverageData: true
-      commandLineArguments:
-        # "-MyEnabledArg": true
-        # "-MyDisabledArg": false
-    # settings:
-    #   PRODUCT_MODULE_NAME: $(PROJECT_NAME)
-    #   PRODUCT_NAME: $(PROJECT_NAME)
+      #commandLineArguments:
   ResultUnitTests:
     type: bundle.unit-test
     platform: [macOS, iOS, tvOS, watchOS]
     sources:
-      - Tests/Core/Unit
-      - Tests/$platform/Unit
+      - Tests/ResultUnitTests/Core
+      - Tests/ResultUnitTests/$platform
     dependencies:
       # - carthage: RxSwift
       # - carthage: Dwifft
       # - carthage: SwiftCheck
-      - carthage: Result
+      - target: Result_$platform
   # GenKitUITests:
   #   type: bundle.ui-testing
   #   platform: [macOS, iOS, tvOS, watchOS]
