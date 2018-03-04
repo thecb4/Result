@@ -46,10 +46,10 @@ targets:
     #   PRODUCT_NAME: $(PROJECT_NAME)
   ResultUnitTests:
     type: bundle.unit-test
-    platform: [macOS, iOS, tvOS, watchOS, swiftPM]
+    platform: [macOS, iOS, tvOS, watchOS]
     sources:
-      - Tests/Unit/Core
-      - Tests/Unit/$platform
+      - Tests/Core/Unit
+      - Tests/$platform/Unit
     dependencies:
       # - carthage: RxSwift
       # - carthage: Dwifft
