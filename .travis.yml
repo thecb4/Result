@@ -46,7 +46,7 @@ script:
 after_success:
   - case $DEPMGT in
     Carthage)
-      bash <(curl -s https://codecov.io/bash)
+      bash <(curl -s https://codecov.io/bash);;
     *)
       ;;
     esac;
