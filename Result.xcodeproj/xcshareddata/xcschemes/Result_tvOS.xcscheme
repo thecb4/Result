@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E90DD1012042E529003A4A04"
+               BlueprintIdentifier = "NT_631776655622"
                BuildableName = "Result.framework"
-               BlueprintName = "Result-phoneOS"
+               BlueprintName = "Result_tvOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,15 +27,16 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E90DD1092042E529003A4A04"
-               BuildableName = "Result-phoneOSTests.xctest"
-               BlueprintName = "Result-phoneOSTests"
+               BlueprintIdentifier = "NT_427318300658"
+               BuildableName = "ResultUnitTests.xctest"
+               BlueprintName = "ResultUnitTests_tvOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,12 +44,14 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E90DD1012042E529003A4A04"
+            BlueprintIdentifier = "NT_631776655622"
             BuildableName = "Result.framework"
-            BlueprintName = "Result-phoneOS"
+            BlueprintName = "Result_tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -63,15 +66,18 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E90DD1012042E529003A4A04"
+            BlueprintIdentifier = "NT_631776655622"
             BuildableName = "Result.framework"
-            BlueprintName = "Result-phoneOS"
+            BlueprintName = "Result_tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -81,15 +87,18 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E90DD1012042E529003A4A04"
+            BlueprintIdentifier = "NT_631776655622"
             BuildableName = "Result.framework"
-            BlueprintName = "Result-phoneOS"
+            BlueprintName = "Result_tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
