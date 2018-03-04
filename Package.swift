@@ -27,7 +27,7 @@ let package = Package(
             name: "ResultTests",
             dependencies: ["Result"],
             path: "Tests",
-            sources:["LinuxMain.swift", "Core/Unit"]),
+            sources:["linux", "Core/Unit"]),
     ],
     swiftLanguageVersions: [4]
 )
