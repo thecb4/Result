@@ -35,8 +35,8 @@ script:
   - case $DEPMGT in
     Carthage)
       xcodebuild clean build -project "${PROJECT}.xcodeproj" -scheme "${PROJECT}_${PLATFORM}";
-      xcodebuild test -project "${PROJECT}.xcodeproj" -scheme "${PROJECT}_${PLATFORM}" -quiet -destination "$DESTINATION" -enableCodeCoverage YES;
-      carthage build --no-skip-current --platform $PLATFORM;;
+      carthage build --no-skip-current --platform $PLATFORM;
+      set -o pipefail && xcodebuild test -project "${PROJECT}.xcodeproj" -scheme "${PROJECT}_${PLATFORM}" -quiet -destination "$DESTINATION" -enableCodeCoverage YES | xcpretty;;
     SwiftPM)
       swift test;;
     *)
