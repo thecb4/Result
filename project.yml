@@ -15,6 +15,8 @@ targets:
   Result:
     type: framework
     platform: [macOS, iOS, tvOS, watchOS]
+    settings:
+      INFOPLIST_FILE: Resources/Info.plist
     sources:
       - Sources/Core
       - Sources/$platform
