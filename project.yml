@@ -46,7 +46,7 @@ targets:
     #   PRODUCT_NAME: $(PROJECT_NAME)
   ResultUnitTests:
     type: bundle.unit-test
-    platform: [macOS, iOS, tvOS, watchOS]
+    platform: [macOS, iOS, tvOS, watchOS, swiftPM]
     sources:
       - Tests/Unit/Core
       - Tests/Unit/$platform
