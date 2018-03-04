@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9069D0A204B4AC700760A84"
+               BlueprintIdentifier = "NT_404799423449"
                BuildableName = "Result.framework"
-               BlueprintName = "Result-tvOS"
+               BlueprintName = "Result_iOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,15 +27,16 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9069D12204B4AC700760A84"
-               BuildableName = "Result-tvOSTests.xctest"
-               BlueprintName = "Result-tvOSTests"
+               BlueprintIdentifier = "NT_791892860313"
+               BuildableName = "ResultUnitTests.xctest"
+               BlueprintName = "ResultUnitTests_iOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,12 +44,14 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069D0A204B4AC700760A84"
+            BlueprintIdentifier = "NT_404799423449"
             BuildableName = "Result.framework"
-            BlueprintName = "Result-tvOS"
+            BlueprintName = "Result_iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -63,15 +66,18 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069D0A204B4AC700760A84"
+            BlueprintIdentifier = "NT_404799423449"
             BuildableName = "Result.framework"
-            BlueprintName = "Result-tvOS"
+            BlueprintName = "Result_iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -81,15 +87,18 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9069D0A204B4AC700760A84"
+            BlueprintIdentifier = "NT_404799423449"
             BuildableName = "Result.framework"
-            BlueprintName = "Result-tvOS"
+            BlueprintName = "Result_iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
