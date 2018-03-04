@@ -25,8 +25,7 @@ let package = Package(
             sources:["Core"]),
         .testTarget(
             name: "ResultUnitTests",
-            dependencies: ["Result"],
-            path: "Tests"),
+            dependencies: ["Result"]),
     ],
     swiftLanguageVersions: [4]
 )
