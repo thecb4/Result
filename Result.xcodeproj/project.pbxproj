@@ -16,9 +16,13 @@
 		BF_244194013998 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
 		BF_247608186789 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
 		BF_252638363858 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
+		BF_264002084545 = {isa = PBXBuildFile; fileRef = FR_944612014707 /* ResultUnitTests.xctest */; };
+		BF_307594956810 = {isa = PBXBuildFile; fileRef = FR_404799423449 /* Result.framework */; };
 		BF_329020407488 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
 		BF_334813364441 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
+		BF_357473591725 = {isa = PBXBuildFile; fileRef = FR_147233867643 /* ResultUnitTests.xctest */; };
 		BF_369325561703 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
+		BF_370876287209 = {isa = PBXBuildFile; fileRef = FR_561021316926 /* Result.framework */; };
 		BF_408697711610 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_433801143118 /* NoError.swift */; };
 		BF_410658881989 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
 		BF_419101858606 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_631776655622 /* Result.framework */; };
@@ -27,25 +31,25 @@
 		BF_490448215850 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
 		BF_505562501017 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
 		BF_506663984688 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
+		BF_523872213345 = {isa = PBXBuildFile; fileRef = FR_340163989783 /* Result.framework */; };
 		BF_530881036640 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
 		BF_545416006101 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
 		BF_563499316299 /* Result.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_462858968896 /* Result.ext.swift */; };
-		BF_563759709340 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_904088703543 /* LinuxMain.swift */; };
 		BF_638902956120 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_912158497325 /* Result.swift */; };
 		BF_640221818400 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
-		BF_645021867809 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_904088703543 /* LinuxMain.swift */; };
+		BF_640648289217 = {isa = PBXBuildFile; fileRef = FR_631776655622 /* Result.framework */; };
+		BF_653820855790 = {isa = PBXBuildFile; fileRef = FR_427318300658 /* ResultUnitTests.xctest */; };
 		BF_683609278436 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
 		BF_692285602328 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_220957590461 /* ResultTests.swift */; };
-		BF_706946667132 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_904088703543 /* LinuxMain.swift */; };
 		BF_716494714585 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_340163989783 /* Result.framework */; };
 		BF_721994011213 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
 		BF_727381636047 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_561021316926 /* Result.framework */; };
 		BF_753500850319 /* AnyErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_216183000319 /* AnyErrorTests.swift */; };
 		BF_763465744096 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_693696808105 /* AnyError.swift */; };
+		BF_812059017800 = {isa = PBXBuildFile; fileRef = FR_791892860313 /* ResultUnitTests.xctest */; };
 		BF_831338797762 /* NoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_311894297497 /* NoErrorTests.swift */; };
 		BF_884046848628 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
 		BF_900659563774 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
-		BF_918291497288 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_904088703543 /* LinuxMain.swift */; };
 		BF_921602409142 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_307897173508 /* ResultProtocol.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,13 +88,14 @@
 		FR_147233867643 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_216183000319 /* AnyErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyErrorTests.swift; sourceTree = "<group>"; };
 		FR_220957590461 /* ResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
+		FR_284345430280 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		FR_307897173508 /* ResultProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultProtocol.swift; sourceTree = "<group>"; };
 		FR_311894297497 /* NoErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoErrorTests.swift; sourceTree = "<group>"; };
 		FR_340163989783 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_382514223238 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		FR_394974862226 /* AnyErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyErrorTests.swift; sourceTree = "<group>"; };
 		FR_404799423449 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_427318300658 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_427318300658 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_433801143118 /* NoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoError.swift; sourceTree = "<group>"; };
 		FR_454326603018 /* NoErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoErrorTests.swift; sourceTree = "<group>"; };
 		FR_462858968896 /* Result.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.ext.swift; sourceTree = "<group>"; };
@@ -99,7 +104,6 @@
 		FR_631776655622 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_693696808105 /* AnyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
 		FR_791892860313 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_904088703543 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		FR_912158497325 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		FR_944612014707 /* ResultUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -222,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				FR_216183000319 /* AnyErrorTests.swift */,
-				FR_904088703543 /* LinuxMain.swift */,
 				FR_311894297497 /* NoErrorTests.swift */,
 				FR_220957590461 /* ResultTests.swift */,
 			);
@@ -325,6 +328,7 @@
 			isa = PBXGroup;
 			children = (
 				G_6048709814767 /* Unit */,
+				FR_284345430280 /* LinuxMain.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -467,19 +471,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
-				TargetAttributes = {
-					NT_427318300658 = {
-						DevelopmentTeam = HFXFKGB6U5;
-					};
-					NT_944612014707 = {
-						DevelopmentTeam = HFXFKGB6U5;
-					};
-				};
 			};
 			buildConfigurationList = CL_479198930335 /* Build configuration list for PBXProject "Result" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+			);
 			mainGroup = G_8448771205358;
 			projectDirPath = "";
 			projectRoot = "";
@@ -502,7 +500,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF_721994011213 /* AnyErrorTests.swift in Sources */,
-				BF_645021867809 /* LinuxMain.swift in Sources */,
 				BF_530881036640 /* NoErrorTests.swift in Sources */,
 				BF_244194013998 /* ResultTests.swift in Sources */,
 			);
@@ -537,7 +534,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF_753500850319 /* AnyErrorTests.swift in Sources */,
-				BF_706946667132 /* LinuxMain.swift in Sources */,
 				BF_232644411023 /* NoErrorTests.swift in Sources */,
 				BF_369325561703 /* ResultTests.swift in Sources */,
 			);
@@ -572,7 +568,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF_458159101558 /* AnyErrorTests.swift in Sources */,
-				BF_563759709340 /* LinuxMain.swift in Sources */,
 				BF_831338797762 /* NoErrorTests.swift in Sources */,
 				BF_692285602328 /* ResultTests.swift in Sources */,
 			);
@@ -583,7 +578,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF_334813364441 /* AnyErrorTests.swift in Sources */,
-				BF_918291497288 /* LinuxMain.swift in Sources */,
 				BF_506663984688 /* NoErrorTests.swift in Sources */,
 				BF_683609278436 /* ResultTests.swift in Sources */,
 			);
@@ -619,7 +613,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = HFXFKGB6U5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-watchOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -762,7 +755,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = HFXFKGB6U5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-tvOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -831,7 +823,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = HFXFKGB6U5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-watchOS";
 				PRODUCT_NAME = ResultUnitTests;
@@ -957,7 +948,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = HFXFKGB6U5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.thecb4.ResultUnitTests-tvOS";
 				PRODUCT_NAME = ResultUnitTests;
