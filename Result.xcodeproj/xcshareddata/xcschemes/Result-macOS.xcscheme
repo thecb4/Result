@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_561021316926"
+               BlueprintIdentifier = "NT_339618621853"
                BuildableName = "Result.framework"
-               BlueprintName = "Result_watchOS"
+               BlueprintName = "Result-macOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,9 +34,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_944612014707"
+               BlueprintIdentifier = "NT_916371315672"
                BuildableName = "ResultUnitTests.xctest"
-               BlueprintName = "ResultUnitTests_watchOS"
+               BlueprintName = "ResultUnitTests-macOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,9 +44,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_561021316926"
+            BlueprintIdentifier = "NT_339618621853"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_watchOS"
+            BlueprintName = "Result-macOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -70,9 +70,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_561021316926"
+            BlueprintIdentifier = "NT_339618621853"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_watchOS"
+            BlueprintName = "Result-macOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -91,9 +91,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_561021316926"
+            BlueprintIdentifier = "NT_339618621853"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_watchOS"
+            BlueprintName = "Result-macOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

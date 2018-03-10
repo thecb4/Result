@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_631776655622"
+               BlueprintIdentifier = "NT_404829017433"
                BuildableName = "Result.framework"
-               BlueprintName = "Result_tvOS"
+               BlueprintName = "Result-iOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,9 +34,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_427318300658"
+               BlueprintIdentifier = "NT_791774305623"
                BuildableName = "ResultUnitTests.xctest"
-               BlueprintName = "ResultUnitTests_tvOS"
+               BlueprintName = "ResultUnitTests-iOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,9 +44,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_631776655622"
+            BlueprintIdentifier = "NT_404829017433"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_tvOS"
+            BlueprintName = "Result-iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -70,9 +70,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_631776655622"
+            BlueprintIdentifier = "NT_404829017433"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_tvOS"
+            BlueprintName = "Result-iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -91,9 +91,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_631776655622"
+            BlueprintIdentifier = "NT_404829017433"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_tvOS"
+            BlueprintName = "Result-iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

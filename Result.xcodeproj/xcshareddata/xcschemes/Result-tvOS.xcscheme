@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_340163989783"
+               BlueprintIdentifier = "NT_631844108861"
                BuildableName = "Result.framework"
-               BlueprintName = "Result_macOS"
+               BlueprintName = "Result-tvOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,9 +34,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_147233867643"
+               BlueprintIdentifier = "NT_427474971891"
                BuildableName = "ResultUnitTests.xctest"
-               BlueprintName = "ResultUnitTests_macOS"
+               BlueprintName = "ResultUnitTests-tvOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,9 +44,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_340163989783"
+            BlueprintIdentifier = "NT_631844108861"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_macOS"
+            BlueprintName = "Result-tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -70,9 +70,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_340163989783"
+            BlueprintIdentifier = "NT_631844108861"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_macOS"
+            BlueprintName = "Result-tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -91,9 +91,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_340163989783"
+            BlueprintIdentifier = "NT_631844108861"
             BuildableName = "Result.framework"
-            BlueprintName = "Result_macOS"
+            BlueprintName = "Result-tvOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
