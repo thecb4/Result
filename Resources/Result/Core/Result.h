@@ -15,6 +15,3 @@ FOUNDATION_EXPORT double ResultVersionNumber;
 FOUNDATION_EXPORT const unsigned char ResultVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Result/PublicHeader.h>
-
-
-
