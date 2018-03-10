@@ -22,7 +22,7 @@ let package = Package(
             name: "Result",
             dependencies: [],
             path: "Sources",
-            sources:["Core"]),
+            sources:["Result/Core"]),
         .testTarget(
             name: "ResultUnitTests",
             dependencies: ["Result"]),
