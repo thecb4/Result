@@ -1,4 +1,0 @@
-[fetch]
-	recurseSubmodules = false
-[http "https://gitlab.com"]
-	sslCAInfo = /Users/cavellebenjamin/Development/apps/ToolBox/Result/builds/cb2e2eef/0/thecb4/Result.tmp/CI_SERVER_TLS_CA_FILE
