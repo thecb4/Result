@@ -43,7 +43,7 @@ test_macOS:
       - master
   stage: test
   script:
-  - set -o pipefail && xcodebuild test-without-building -project Result.xcodeproj -scheme Result-macOS -destination "platform=OS X" | xcpretty
+  - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-macOS -destination "platform=OS X" | xcpretty
 
 test_iOS:
   only:
@@ -51,7 +51,7 @@ test_iOS:
       - master
   stage: test
   script:
-  - set -o pipefail && xcodebuild test-without-building -project Result.xcodeproj -scheme Result-iOS -destination "platform=iOS Simulator,name=iPhone 8" | xcpretty
+  - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-iOS -destination "platform=iOS Simulator,name=iPhone 8" | xcpretty
 
 test_tvOS:
   only:
@@ -59,4 +59,4 @@ test_tvOS:
       - master
   stage: test
   script:
-  - set -o pipefail && xcodebuild test-without-building -project Result.xcodeproj -scheme Result-tvOS -destination "platform=tvOS Simulator,name=Apple TV" | xcpretty
+  - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-tvOS -destination "platform=tvOS Simulator,name=Apple TV" | xcpretty
