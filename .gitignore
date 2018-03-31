@@ -113,5 +113,7 @@ fastlane/test_output
 Packages
 xcuserdata
 
+### gitlab-ci ###
+builds
 
 # End of https://www.gitignore.io/api/macOS,swift,SwiftPM,linux,carthage
