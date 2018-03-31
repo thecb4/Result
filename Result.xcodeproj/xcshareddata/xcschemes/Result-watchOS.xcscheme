@@ -29,16 +29,6 @@
       codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_179172433709"
-               BuildableName = "ResultUnitTests.xctest"
-               BlueprintName = "ResultUnitTests-watchOS"
-               ReferencedContainer = "container:Result.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
