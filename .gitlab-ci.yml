@@ -35,11 +35,6 @@ test_iOS:
   script:
   - set -o pipefail && xcodebuild test-without-building -project Result.xcodeproj -scheme Result-iOS -destination "platform=iOS Simulator,name=iPhone 8" | xcpretty
 
-test_watchOS:
-  stage: test
-  script:
-  - set -o pipefail && xcodebuild test-without-building -project Result.xcodeproj -scheme Result-watchOS -destination "platform=watchOS Simulator,name=Apple Watch - 38mm" | xcpretty
-
 test_tvOS:
   stage: test
   script:
