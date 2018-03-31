@@ -21,7 +21,7 @@ build_watchOS:
 build_tvOS:
   stage: build
   script:
-  - set -o pipefail && xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-tvOS -destination "platform=tvOS Simulator,name=Apple TV" | xcpretty
+  - set -o pipefail && xcodebuild build -parallelizeTargets -project Result.xcodeproj -scheme Result-tvOS -destination "platform=tvOS Simulator,name=Apple TV" | xcpretty
 
 ## -----------------------------
 
