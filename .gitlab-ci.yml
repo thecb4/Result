@@ -4,6 +4,21 @@ stages:
   - deploy
 
 build_macOS:
-  stage: build
+  stage: test
   script:
   - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-macOS -destination "platform=OS X" | xcpretty
+
+build_iOS:
+  stage: test
+  script:
+  - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-iOS -destination "platform=iOS Simulator,name=iPhone 8" | xcpretty
+
+build_watchOS:
+  stage: test
+  script:
+  - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-watchOS -destination "platform=watchOS Simulator,name=Apple Watch - 38mm" | xcpretty
+
+build_tvOS:
+  stage: test
+  script:
+  - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-tvOS -destination "platform=tvOS Simulator,name=Apple TV" | xcpretty
