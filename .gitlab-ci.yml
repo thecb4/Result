@@ -6,22 +6,22 @@ stages:
 build_macOS:
   stage: build
   script:
-  - set -o pipefail && xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-macOS -destination "platform=OS X" | xcpretty
+  - xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-macOS -destination "platform=OS X"
 
 build_iOS:
   stage: build
   script:
-  - set -o pipefail && xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-iOS -destination "platform=iOS Simulator,name=iPhone 8" | xcpretty
+  - xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-iOS -destination "platform=iOS Simulator,name=iPhone 8"
 
 build_watchOS:
   stage: build
   script:
-  - set -o pipefail && xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-watchOS -destination "platform=watchOS Simulator,name=Apple Watch - 38mm" | xcpretty
+  - xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-watchOS -destination "platform=watchOS Simulator,name=Apple Watch - 38mm"
 
 build_tvOS:
   stage: build
   script:
-  - set -o pipefail && xcodebuild build -parallelizeTargets -project Result.xcodeproj -scheme Result-tvOS -destination "platform=tvOS Simulator,name=Apple TV" | xcpretty
+  - xcodebuild build -parallelizeTargets -project Result.xcodeproj -scheme Result-tvOS -destination "platform=tvOS Simulator,name=Apple TV"
 
 ## -----------------------------
 
