@@ -1,0 +1,9 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_macOS:
+  stage: build
+  script:
+  - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-macOS -destination "platform=OS X" | xcpretty
