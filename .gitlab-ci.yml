@@ -4,6 +4,8 @@ stages:
   - deploy
 
 build_macOS:
+  tags:
+    - Knowhere-MBP.local
   only:
     refs:
       - master
@@ -12,6 +14,8 @@ build_macOS:
   - xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-macOS -destination "platform=OS X"
 
 build_iOS:
+  tags:
+    - Knowhere-MBP.local
   only:
     refs:
       - master
@@ -20,6 +24,8 @@ build_iOS:
   - xcodebuild build-for-testing -parallelizeTargets -project Result.xcodeproj -scheme Result-iOS -destination "platform=iOS Simulator,name=iPhone 8"
 
 build_watchOS:
+  tags:
+    - Knowhere-MBP.local
   only:
     refs:
       - master
@@ -28,6 +34,8 @@ build_watchOS:
   - xcodebuild build -parallelizeTargets -project Result.xcodeproj -scheme Result-watchOS -destination "platform=watchOS Simulator,name=Apple Watch - 38mm"
 
 build_tvOS:
+  tags:
+    - Knowhere-MBP.local
   only:
     refs:
       - master
@@ -38,6 +46,8 @@ build_tvOS:
 ## -----------------------------
 
 test_macOS:
+  tags:
+    - Knowhere-MBP.local
   only:
     refs:
       - master
@@ -46,6 +56,8 @@ test_macOS:
   - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-macOS -destination "platform=OS X" | xcpretty
 
 test_iOS:
+  tags:
+    - Knowhere-MBP.local
   only:
     refs:
       - master
@@ -54,6 +66,8 @@ test_iOS:
   - set -o pipefail && xcodebuild test -project Result.xcodeproj -scheme Result-iOS -destination "platform=iOS Simulator,name=iPhone 8" | xcpretty
 
 test_tvOS:
+  tags:
+    - Knowhere-MBP.local
   only:
     refs:
       - master
